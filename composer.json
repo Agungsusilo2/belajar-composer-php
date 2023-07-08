@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ProgrammerZamanNow\\Belajar\\":"src/"
+            "programmerzamannow\\belajar\\":"src/"
         }
     }
 }

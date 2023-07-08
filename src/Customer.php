@@ -1,8 +1,8 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar;
+namespace programmerzamannow\belajar;
 
-class Customers{
+class Customer{
     private string $name;
 
     public function __construct(string $name)
@@ -10,7 +10,7 @@ class Customers{
         $this->name = $name;
     }
 
-    public function sayHello(string $name):string{
-        return "Hello $name, my names is $this->name";
+    public function sayHello(string $name = "Guest"):string{
+        return "Hello $name, my name is $this->name".PHP_EOL;
     }
 }
