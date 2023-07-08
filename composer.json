@@ -1,0 +1,19 @@
+{
+    "name": "programmerzamannow/belajar-php-composer-hello",
+    "description": "belajar php composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Agung Susilo",
+            "email": "agungsusilo683@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"7.4.33"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgrammerZamanNow\\Belajar\\":"src/"
+        }
+    }
+}
